@@ -159,5 +159,5 @@ RegisterNumber:  22008369
 
 
 ### RESULTS :
-Thus the flipflops-using-verilog are designedand and the truth table is verified using quartus.
+Thus the flipflops-using-verilog are designed and and the truth table is verified using quartus.
 
