@@ -101,16 +101,20 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
+### Procedure:
+1. Using nand gates and wires construct SRflip flop.
+2. Repeat same steps to construct JK,D,T flipflops.
+3. Find the Rtllogic and timing diagram for all flipflops.
+4. End the program.
+
 
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:NIRAUNJANA GAYATHRI G R 
+RegisterNumber:  22008369
 */
 
 
@@ -118,7 +122,12 @@ RegisterNumber:
 
 
 
-### RTL LOGIC FOR FLIPFLOPS 
+### RTL LOGIC FOR FLIPFLOPS :
+
+![image](https://user-images.githubusercontent.com/119395610/212465810-49a78e4f-bb52-4881-aa71-184a140b7dce.png)
+![image](https://user-images.githubusercontent.com/119395610/212465825-3d47a1a7-a235-45fc-8cbb-a49bfc93fe9c.png)
+![image](https://user-images.githubusercontent.com/119395610/212465837-547c24ae-d992-422a-a0af-bae351dc62b0.png)
+![image](https://user-images.githubusercontent.com/119395610/212465852-9246c7d2-dd48-4f31-b098-2b4a65f45f20.png)
 
 
 
@@ -128,7 +137,15 @@ RegisterNumber:
 
 
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
+
+
+
+
+### TIMING DIGRAMS FOR FLIP FLOPS :
+![image](https://user-images.githubusercontent.com/119395610/212465887-27dccb03-2d0b-43b6-ade8-c155d2b3b113.png)
+![image](https://user-images.githubusercontent.com/119395610/212465899-dfb92f7f-f96f-4625-9eed-761092213407.png)
+![image](https://user-images.githubusercontent.com/119395610/212465909-9b9a7a91-693d-4f2a-a91a-a90592375e1e.png)
+![image](https://user-images.githubusercontent.com/119395610/212465922-04d76da6-c47b-472e-bbfb-91f56100bb08.png)
 
 
 
@@ -137,4 +154,10 @@ RegisterNumber:
 
 
 
-### RESULTS 
+
+
+
+
+### RESULTS :
+Thus the flipflops-using-verilog are designedand and the truth table is verified using quartus.
+
